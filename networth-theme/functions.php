@@ -76,7 +76,7 @@ add_action('init', function () {
 		'hierarchical'       => false,
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-star-filled',
-		supports'           => [ 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ],
+		'supports'           => [ 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ],
 		'show_in_rest'       => true,
 	];
 
